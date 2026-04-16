@@ -91,11 +91,11 @@ export default function About() {
           <pre className="text-slate-300 leading-relaxed overflow-x-auto">
 {`const developer = {
   name: "${personalInfo.name}",
-  role: "Full Stack Engineer | Web3 Developer",
+  role: "Software Engineer | Web3 Developer",
   stack: {
-    frontend: ["React", "Next.js", "TypeScript", "Three.js"],
-    backend:  ["Node.js", "GraphQL", "PostgreSQL", "Redis"],
-    web3:     ["Solidity", "Ethers.js", "Hardhat", "DeFi"],
+    frontend: ["React", "Next.js", "TypeScript", "MUI"],
+    backend:  ["Node.js", "MongoDB", "REST APIs", "AWS"],
+    web3:     ["Ethers.js", "DeFi", "NFT Standards", "dApps"],
   },
   passion: "Building the decentralized future",
   status: `}<span className="text-emerald-400">"open_to_opportunities"</span>{`,

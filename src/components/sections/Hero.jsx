@@ -146,7 +146,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1.4 }}
           className="mt-12 flex flex-wrap justify-center gap-3"
         >
-          {['React', 'Node.js', 'Solidity', 'Ethers.js', 'Three.js', 'TypeScript'].map((tech) => (
+          {['React', 'Next.js', 'TypeScript', 'Node.js', 'Ethers.js', 'AWS'].map((tech) => (
             <span
               key={tech}
               className="px-3 py-1 font-mono text-xs glass-card text-slate-400 border-purple-500/20"
