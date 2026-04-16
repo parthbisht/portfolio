@@ -156,17 +156,7 @@ export default function Hero() {
           ))}
         </motion.div>
       </div>
-
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <span className="font-mono text-xs text-slate-500 tracking-widest">SCROLL</span>
-        <div className="w-px h-12 bg-gradient-to-b from-purple-500 to-transparent animate-pulse" />
-      </motion.div>
+    
     </section>
   );
 }

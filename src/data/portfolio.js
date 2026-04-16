@@ -2,7 +2,7 @@
 
 export const personalInfo = {
   name: "Parth Raj Bisht",
-  title: "Full stack Engineer | Web3 Developer",
+  title: "Full Stack Engineer | Web3 Developer | AI Engineer",
   tagline: "Results-driven Web3 engineer building decentralized applications, DeFi protocols, and scalable frontends that push the boundaries of the open internet.",
   email: "parthbisht22@gmail.com",
   phone: "+91 9837387488",
